@@ -39,8 +39,11 @@ Master Python Programming & Launch Your Tech Career
         <p className='python-para my-5 mx-auto'>
      
      
-     Are you ready to unlock the power of Python and become a highly sought-after programmer? Our comprehensive Python mastery course with training and placement is designed to equip you with skils and knowledge to excel in today's dynamic tech landscape </p>
-        </div>
+        Are you ready to unlock the power of Python and become a
+                  highly sought-after programmer? Our comprehensive Python
+                  mastery course with training and placement is designed to
+                  equip you with skils and knowledge to excel in today's dynamic
+                  tech landscape </p>        </div>
   </div>
     </div>
  

@@ -19,6 +19,7 @@ import One from './Components/One';
 import Two from './Components/Two';
 import Three from './Components/Three';
 import Four from './Components/Four';
+import Viewallcourses from './Pages/Viewallcourses';
 
 
 function App() { 
@@ -48,6 +49,7 @@ function App() {
       <Route path="/" element={<Home />}/>
       <Route path="/Aboutus" element={<Aboutus />}/>
       <Route path="/Home" element={<Home />}/>
+      <Route path="/Viewallcourses" element={<Viewallcourses/>}/>
       <Route path="/PythonCourse" element={<PythonCourse1/>}/>
       <Route path="/Fullstackdevelopment" element={<Developmentfullstack/>}/>
       <Route path="/Qatesting" element={<Qatesting/>}/>

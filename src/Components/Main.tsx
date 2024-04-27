@@ -7,6 +7,7 @@ import Testimonials from './Testimonials';
 import Footer from './Footer';
 import Cards from './Cards';
 import Tilt from 'react-parallax-tilt'
+import { Link } from 'react-router-dom';
 
 
 
@@ -37,7 +38,8 @@ function Main() {
  
 <p className='py-3 greyyy'>Don't job hunt alone. We support you with training & guidance until you land your dream role.Your success is ours. We're with you every step of the way, until you're job-ready!</p>      
 
-</div><p className=' w-25 text-center more-know1 text-white '>Know More</p>
+</div>
+<p className=' w-25 text-center more-know1 text-white '>Know More</p>
         </div>
         <div className="col-lg-7 dummy"data-aos="zoom-in"data-aos-duration="3000">
    <Tilt>
@@ -57,7 +59,7 @@ function Main() {
 
 
 <div className="container viewall">
-<p className='all mx-auto'>View All Courses  <span className='left-arrow'><FaArrowRight /></span></p>
+<p className='all mx-auto'><Link className='nav-link' to={'/Viewallcourses'}>View All Courses  <span className='left-arrow'><FaArrowRight /></span> </Link></p>
 </div>
 
 <div className="container p-5">
