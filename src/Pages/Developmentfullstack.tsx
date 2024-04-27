@@ -20,14 +20,22 @@ function Developmentfullstack() {
       <div className="col-md-7  d-flex  flex-column justify-content-center">
         <div className="container mx-sm-5">
         <h2 className='mt-5 text-center text-dark'>
-          Python Mastery
+       Full Stack Development
         </h2>
-
         <p>
-        Dive into the world of Python programming with our comprehensive courses. you're a beginner or looking to enhance your skills, our expert-led sessions cover everything from basics to advanced topics.
-
-
-        </p>
+        Become a Full-Stack Developer: Build, Deploy, & Land Your Dream Job</p>
+                <p className="pt-3">
+                  Master the In-Demand Skills to Craft Interactive Web
+                  Applications (with Placement Assistance!) In today's digital
+                  age, full-stack developers are the rockstars of the tech
+                  world. They possess the expertise to build both the front-end
+                  (user interface) and back-end (server-side) of web
+                  applications, making them incredibly valuable assets for
+                  businesses. Our comprehensive full-stack development course,
+                  complete with placement assistance, equips you with the skills
+                  and knowledge to launch a thriving career in this exciting
+                  field.
+                </p>
         
         </div>
   </div>
