@@ -20,6 +20,7 @@ import Two from './Components/Two';
 import Three from './Components/Three';
 import Four from './Components/Four';
 import Viewallcourses from './Pages/Viewallcourses';
+import Uparoww from './Components/Uparoww';
 
 
 function App() { 
@@ -45,6 +46,8 @@ function App() {
       <>
 
       <Navbar/>
+      <Uparoww/>
+
       <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/Aboutus" element={<Aboutus />}/>
@@ -66,7 +69,9 @@ function App() {
       
       
               </Routes>
-      
+ 
+
+
               <div className="App">
     <AnimatedCursor
       innerSize={8}

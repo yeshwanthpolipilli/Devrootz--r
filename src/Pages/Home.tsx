@@ -3,6 +3,7 @@ import Banner from '../Components/Banner'
 import Main from '../Components/Main'
 
 
+
 function Home() {
   return (
     <>
@@ -10,6 +11,8 @@ function Home() {
    <Banner/>
    <Main/>
    
+   
+
     </>
  
   )

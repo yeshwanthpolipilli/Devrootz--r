@@ -2,7 +2,6 @@ import React from 'react'
 import Tilt from 'react-parallax-tilt';
 import 'aos/dist/aos.css'; // Import AOS styles
 import AOS from 'aos';
-
 import Footer from '../Components/Footer';
 import Animationsquare from '../Components/Animationsquare';
 
@@ -96,7 +95,7 @@ function Aboutus() {
               />
               <img
                 className="ms-card"
-                src={require('../Components/images/mission 3.png')}
+                src={require('../Components/images/group.png')}
                 alt=""
               />
               <img

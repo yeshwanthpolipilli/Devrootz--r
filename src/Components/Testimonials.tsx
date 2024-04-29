@@ -57,9 +57,9 @@ function Testimonials() {
         </div>
         <div className="col-lg-4">
         <div className="card border-0  p-3 d-block" >
-            <img src='https://wp.dynamiclayers.net/enova/wp-content/uploads/sites/4/2021/08/testimonial01.jpg' className=" tm-img rounded-circle card-img-top w-50  d-block mx-auto" alt="..."/>
+            <img src={require('../Components/images/anil.jpeg')} className=" tm-img rounded-circle card-img-top w-50  d-block mx-auto" alt="..."/>
             <div className="card-body">
-              <h5 className="card-title text-center">Anil</h5>
+              <h5 className="card-title text-center">Sandeep Kumar</h5>
               <p className="card-title text-center">Software Developer</p>
 
               <p className="card-text text-center">"Choosing DevRootz for our development needs was one of the best decisions we made. Their dedication to quality and client satisfaction is evident in every aspect of their work".</p>

@@ -39,7 +39,7 @@ function Main() {
 <p className='py-3 greyyy'>Don't job hunt alone. We support you with training & guidance until you land your dream role.Your success is ours. We're with you every step of the way, until you're job-ready!</p>      
 
 </div>
-<p className=' w-25 text-center more-know1 text-white '>Know More</p>
+<p className=' w-25 text-center more-know1 text-white '> <Link className='nav-link' to={'/Viewallcourses'}>Know More</Link></p>
         </div>
         <div className="col-lg-7 dummy"data-aos="zoom-in"data-aos-duration="3000">
    <Tilt>

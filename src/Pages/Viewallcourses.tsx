@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "../Pages/viewall.css";
 import Tilt from "react-parallax-tilt";
+import Footer from '../Components/Footer';
 
 function Viewallcourses() {
   return (
@@ -107,14 +108,14 @@ Become a Full-Stack Developer: Build, Deploy, & Land Your Dream Job
             <div className="col-md-5">
               <Tilt>
                 <img
-                  className="w-100 mt-3"
-                  src={require("../Components/images/RECREATE PYTHON.webp")}
+                  className="w-75 mt-3"
+                  src={require("../Components/images/qa tester.png")}
                   alt=""
                 />
               </Tilt>
             </div>
 
-            <div className="col-md-7">
+            <div className="col-md-7 justify-content-center align-self-center">
               <div className="container mx-sm-5">
                 <h2 className="mt-5 text-center text-dark">Qa Testing</h2>
                 <p>
@@ -188,6 +189,12 @@ Become a Full-Stack Developer: Build, Deploy, & Land Your Dream Job
       </div>
 
       {/* sql ends  */}
+
+<div className="pt-5">
+<Footer/>
+</div>
+
+   
     </>
   );
 }

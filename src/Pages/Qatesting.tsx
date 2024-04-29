@@ -13,7 +13,7 @@ function Qatesting() {
 
   return (
     <>
-      <div className="container-fluid bg-white   text-dark p-5">
+      <div className="container-fluid bg-white   text-dark">
         <div className="container ">
           <div className="row">
             <div
@@ -22,13 +22,13 @@ function Qatesting() {
               data-aos-duration="1000"
             >
               <img
-                className="w-100 mt-3"
-                src={require("../Components/images/RECREATE PYTHON.webp")}
+                className="w-100"
+                src={require("../Components/images/qa tester.png")}
                 alt=""
               />
             </div>
 
-            <div className="col-md-7">
+            <div className="col-md-7 d-flex flex-column justify-content-center">
               <div className="container mx-sm-5">
                 <h2 className="mt-5 text-center text-dark">Qa Testing</h2>
 
